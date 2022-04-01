@@ -1,108 +1,110 @@
 body {
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.822);
     margin: 0 auto;
   }
   
   header {
     background-color: #ce4b4b;
-    border-bottom: 1px solid #771717;
-    position: fixed;
+    border-bottom: 4px solid #000000;
+    margin-bottom: 40px;
     width: 100%;
     z-index: 10;
   }
   
   ul {
-    margin: 30px auto;
-    padding: 0 20px;
+    margin: 5px 0;
+    padding: 0 10px;
     text-align: center;
   }
+
+
   
   li {
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-size: 13px;
     display: inline-block;
-    width: 80px;  
+    width: 85px; 
+    padding: 5px; 
+    margin: 5px;   
   }
-  
-  li:hover {
-    color: #DBE9EE;
+
+  ol {
+    font-size: 12px;
+    font-weight: 300;
+    width: 80px;
+    text-align: left; 
   }
   
   h1 {
-    color: #466995;
+    color: #5e2645;
     font-family: 'Oswald', sans-serif;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
-  }
-  
-  h2 {
-    color: #333;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 26px;
-    font-weight: 100;
-    margin: 0 auto 20px auto;
+    text-align: left;
   }
   
   h3 {
-    color: #466995;
+    color: #3b6599;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    font-weight: 700;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 600;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 10px;
   }
   
   h4 {
-    color: #466995;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 10px;
+    font-weight: 250;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    display: inline-block;
   }
   
   p {
     color: #333;
     font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: left;
   }
   
   footer {
-    background-color: #DBE9EE;
+    background-color: #ce4b4b;
     text-align: center;
-    height: 100px;
+    height: 150px;
+    border-top: solid 5px;
   }
   
   .welcome {
-    background-color: #DBE9EE;
+    background-color: #eedbdb;
     box-sizing: border-box;
-    padding: 40px;
-    text-align: center;
+    position:absolute;
+    text-align: justify;
     width: 100%;
-    position: relative;
-    top: 50px;
+    top: 70px;
+ 
   }
   
-  .question {
-    text-align: center;
-    position: relative;
-    top: 40px;
-  }
-  
-  .answer {
-    border: 1px solid #954646;
-    margin: 20px;
+  .sidebar {
     display: inline-block;
+    border: 4px double #771717;
+    height: 600px;
+    position: relative;
+    width: 140px;
+    padding-bottom: auto;
   }
-  
-  .answer:hover {
-    background: #C0D6DF;
-    color: #FFF;
+
+  .image {
+      display: inline-block;
+      width: 500px;
+      margin-top: 60px;
+      padding: 30px;
+  }
+
+  .contain {
+      display: inline-block;
+      position: absolute;
+      padding: 10px;
   }
   
